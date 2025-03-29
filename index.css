@@ -15,6 +15,10 @@
   margin: -180px auto 0 calc(((100% - 1140px) / 2));
 }
 
+.ml-auto {
+  margin-left: auto !important;
+}
+
 .u-section-1 .u-group-1 {
   min-height: 395px;
   width: 537px;
