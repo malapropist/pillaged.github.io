@@ -17,7 +17,20 @@
 
 .ml-auto {
   margin-left: auto !important;
+  margin-right: clamp(2ch, 5vw, 3ch) !important;
+  font-size: clamp(16px, 1vw, 40px) !important;
 }
+
+
+@media (max-width: 576px) {
+  .ml-auto {
+    max-width: 13ch !important;
+    word-break: break-word !important;
+    font-size: clamp(16px, 1vw, 40px) !important;
+  }
+}
+
+
 
 .u-section-1 .u-group-1 {
   min-height: 395px;
